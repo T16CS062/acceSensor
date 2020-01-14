@@ -88,8 +88,10 @@ public class MainActivity extends Activity
 
             azimuthText.setText(Integer.toString(
                     (int)(attitude[0] * RAD2DEG)));
+
             pitchText.setText(Integer.toString(
                     (int)(attitude[1] * RAD2DEG)));
+
             rollText.setText(Integer.toString(
                     (int)(attitude[2] * RAD2DEG)));
 
